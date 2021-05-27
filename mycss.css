@@ -1,0 +1,190 @@
+body {
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  color: white;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.grey-border {
+  width: 100%;
+  background-color: grey;
+  height: 10px;
+}
+
+
+nav {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+}
+
+#netflix-logo {
+  font-size: 50px;
+  color: #e50914;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+#signin-button {
+  margin: 20px 20px 0 0;
+  ;
+}
+
+#signin-button button {
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 17px 7px 17px;
+  font-size: 16px;
+  font-style: 'helvetica';
+  font-weight: 400;
+}
+
+#home-article {
+  padding-bottom: 200px;
+  background-image: url('background_image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#main-home-content {
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+#main-home-content h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#main-home-content h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+#main-home-content h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+#getstarted-input {
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+#getstarted-button {
+  padding: 1%;
+  background-color: #e50914;
+  color: white;
+  font-size: 18px;
+  font-family: 'helvetica';
+  font-weight: bold;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.info-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+
+.info-article > div h1 {
+  font-size: 50px;
+  margin: 5px 0;
+}
+
+.info-article > div h2 {
+  font-size: 20px;
+}
+
+#download-shows {
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+  #download {
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+
+
+  #watch {
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+
+  #create-profile {
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+#faq-article {
+  margin-bottom: 50px;
+}
+
+#faq-article h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  background-color: #777;
+  color: white;
+  font-size: 20px;
+  font-family: 'helvetica';
+  width: 50%;
+  justify-content: center;
+  text-align: left;
+  margin: auto;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .info-article {
+    flex-direction: column-reverse;
+  }
